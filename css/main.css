@@ -1,9 +1,56 @@
+
 /* HEADER */
 .header__title{
     font-weight: bold;
-    color:  ;
-        font-family: "Just Me Again Down Here", cursive;
-        font-weight: 400;
-        font-style: normal;
-      
+    color: #D9D4BB;
+    font-family: "Just Me Again Down Here", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 100%;
+}
+
+.header__title__dourado{
+    font-weight: bold;
+    color: #DBA256;
+    font-family: "Just Me Again Down Here", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 100%;
+}
+
+/* MAIN */
+
+main{
+    height: 125vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    width: 589px;
+    height: 237px;
+    padding-top: 32px;
+    padding-right: 48px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    gap: 26px;
+    justify-content:left;
+    background-color: white;
+    flex-direction: column;
+    border: 1px solid black;
+    text-align: right;
+}
+
+.form__btn1{
+    background-color:hsl(0, 0%, 100%);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 2000);
+}
+
+.form__btn2{
+    background-color:#FF9C2D;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 2000);
 }
