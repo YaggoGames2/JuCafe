@@ -1,56 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
 
 /* HEADER */
-.header__title{
-    font-weight: bold;
-    color: #D9D4BB;
-    font-family: "Just Me Again Down Here", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 80px;
-    line-height: 100%;
+
+header {
+    background-color: #982417;
+    width: 100vw;
+    height: 176px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.header__title__dourado{
+.header__title {
     font-weight: bold;
-    color: #DBA256;
+    color: #FFF0D1;
     font-family: "Just Me Again Down Here", cursive;
     font-weight: 400;
     font-style: normal;
     font-size: 80px;
     line-height: 100%;
+    display: flex;
+
 }
+
+.header__title__dourado {
+    font-weight: bold;
+    color: #C7AB72;
+    font-family: "Just Me Again Down Here", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 100%;
+    display: flex;
+}
+
+.logo {
+    color: #FFF0D1;
+    width: 80;
+    height: 80;
+}
+
+.Menu {
+    font-family: "Just Me Again Down Here", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 100%;
+    color: #FFF0D1;
+    flex-direction: row;
+    padding-left: 32px;
+    padding-right: 32px;
+
+}
+
+
 
 /* MAIN */
 
-main{
-    height: 125vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.cafe {
+  
 }
 
-.form{
+.Negrito {
+    font-weight: bold;
+}
+
+.text__red {
+    color: #c90f0f;
+}
+
+.form {
     display: flex;
     width: 589px;
     height: 237px;
     padding-top: 32px;
     padding-right: 48px;
     padding-bottom: 32px;
-    padding-left: 16px;
+    padding-left: 32px;
     gap: 26px;
-    justify-content:left;
+    justify-content: left;
     background-color: white;
     flex-direction: column;
     border: 1px solid black;
     text-align: right;
+    position: absolute;
+    top: 25%;
+    left: 64.60%;
+    font-size: 40px;
+    font-weight: bold;
 }
 
-.form__btn1{
-    background-color:hsl(0, 0%, 100%);
+.text__form{
+    font-size: 28px;
+}
+.form__btn1 {
+    background-color: hsl(0, 0%, 100%);
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 2000);
+    border: 1px solid #FF9C2D;
+    font-size: 28px;
+    width: 162px;
+    height: 35px;
+   
 }
 
-.form__btn2{
-    background-color:#FF9C2D;
+.form__btn2 {
+    background-color: #FF9C2D;
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 2000);
+    font-size: 28px;
 }
+
+.Beneficios{}
