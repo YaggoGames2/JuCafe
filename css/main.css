@@ -61,8 +61,6 @@ header {
 
 }
 
-
-
 /* MAIN */
 
 .cafe {
@@ -117,4 +115,19 @@ header {
     font-size: 28px;
 }
 
-.Beneficios{}
+.Beneficios{
+    background-color: #C7AB72;
+    text-align: center;
+}
+
+.Depoimento{
+    background-color: #000000;
+    
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #982417;
+
+}
