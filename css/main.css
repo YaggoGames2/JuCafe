@@ -122,12 +122,70 @@ header {
 
 .Depoimento{
     background-color: #000000;
+    flex-wrap: nowrap;
     
 }
 
 /* FOOTER */
 
-.footer{
-    background-color: #982417;
+.footer {
+    background-color: #8B2C1B;
+    color: #fff;
+    padding: 20px;
+    font-family: 'Lekton', sans-serif;
+    font-size: 14px;
+  }
+   
+  .footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+   
+  .footer__social {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+   
+  .footer__icons a {
+    color: #fff;
+    margin: 0 5px;
+    font-size: 20px;
+  }
+   
+  .footer__contact {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+  }
+   
+  .footer__bottom {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #f5f5f5;
+  }
 
-}
+  @media (max-width: 768px) {
+    .modelos__container {
+      flex-direction: column;
+      gap: 32px;
+      align-items: center;
+    }
+   
+    .modelo {
+      width: 100%;
+      max-width: 90%;
+    }
+   
+    .modelo__lista {
+      padding-left: 20px;
+    }
+   
+    .modelos__title {
+      font-size: 28px;
+    }
+  }
